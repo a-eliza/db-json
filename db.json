@@ -1,6 +1,14 @@
 {  
-    "modal":"customtextobj",
-    "emotes":"customtextobj",
-    "comments":"customtextobj",
-    "powerbar":"customtextobj"
- }
+    "modal": {
+      "value": "customtextobj"
+    },
+    "emotes": {
+      "value": "customtextobj"
+    },
+    "comments": {
+      "value": "customtextobj"
+    },
+    "powerbar": {
+      "value": "none"
+    }
+}
