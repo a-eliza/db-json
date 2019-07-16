@@ -3,12 +3,138 @@
       "value": "customtextobj"
     },
     "emotes": {
-      "value": "customtextobj"
+      "customText": {
+        "comment": "komentar",
+        "comments": "komentari",
+        "header": "Koja je tvoja reakcija?",
+        "noRecommendations": "😢 Nema preporuke. Molim Vas pokušajte sa drugim emote.",
+        "suggestionsHeader": "Možda Vam se svidi:",
+        "thanks": "Hvala Vam što ste glasali!",
+        "vote": "glas",
+        "votes": "glasovi"
+      }
     },
-    "comments": {
-      "value": "customtextobj"
-    },
-    "powerbar": {
-      "value": "none"
-    }
+    
+	"comments": {
+		"customText": {
+			"common": {
+				"name": "Ime",
+				"email": "E-pošta",
+				"password": "Lozinka",
+				"ageRange": "Odaberi raspon dobi",
+				"writeComment": "Napiši komentar",
+				"blankName": "Ime ne može ostati prazno",
+				"blankEmail": "E-pošta ne može ostati prazna",
+				"blankPassword": "Lozinka ne može ostati prazna",
+				"blankComment": "Komentar ne može ostati prazan",
+				"invalidEmail": "Nevažeća e-pošta.",
+				"invalidName": "Ime ne bi trebalo da sadržri brojeve, URL, posebne znakove ili uvredljive reči",
+				"reply": "Odgovor",
+				"replies": "Odgovori",
+				"report": "Prijavi komentar",
+				"or": "ili",
+				"to": "za",
+				"recommend": "Preporuči",
+				"recommended": "Preporučeno",
+				"readMore": "Pročitaj više",
+				"showLess": "pokaži manje",
+				"points": "poeni",
+				"point": "poen",
+				"moderator": "Moderator",
+				"signIns": "Prijavi se",
+				"signUps": "Priključi se",
+				"signInWiths": "Prijavi se sa:",
+				"signInWithVuukles": "ili se prijavi koristeći Vuukle:",
+				"signUpWithVuukles": "ili se priključi na Vuukle:",
+				"share": "Podeli",
+				"collapse": "Umanji",
+				"expand": "Proširi"
+			},
+			"profile": {
+				"myProfile": "Moj Profil",
+				"myComments": "Moji Komentari",
+				"signOut": "Odjavi se",
+				"removeComment": "Ukloni komentar"
+			},
+			"toxicity": {
+				"long": "verovatno će biti shvaćen kao 'štetan'",
+				"messageTooLong": "Broj znakova je premašen. Molim Vas pokušajte da skratite Vaš komentar ili uklonite neke simbole."
+			},
+			"messages": {
+				"charlimits": "Moderator je ograničio broj znakova do",
+				"alreadyReported": "Već ste prijavili ovaj komentar moderatoru.",
+				"commentsClosed": "Komentarisanje je sada zatvoreno.",
+				"alreadySubmitted": "Vaš komentar za ovaj članak je već prosleđen.",
+				"almostSame": "Vaš prethodni komentar je bio gotovo isti. Molim Vas napišite nešto drugačije.",
+				"flaggedMessage": "Hvala, moderator će biti obavešten",
+				"errorSubmitting": "Došlo je do greške prilikom čuvanja Vašeg komentara, molim Vas osvežite stranicu i pokušajte ponovo",
+				"invalidLogin": "Nevažeća prijava, molim Vas prijavite se ponovo",
+				"spammerComment": "Vaš komentar je na razmatranju",
+				"moderationMessage": "Vaš komentar je na razmatranju i biće odobren od strane moderatora stranice. Hvala Vam na strpljenju.",
+				"spamComment": "Izgleda da želite da objavite spam komentar. Ukoliko i dalje želite da ga pošaljete samo ponovo kliknite na dugme 'OBJAVI'.",
+				"errorContactVuukle": "Greška! Molim Vas pokušajte ponovo, ukoliko se greška i dalje ponavlja, obevestite naš tim na support@vuukle.com",
+				"ownCommentVote": "Ne možete glasati za svoj komentar",
+				"alreadyVoted": "Već ste glasali. Možete kliknuti ponovo da biste uklonili vaš glas.",
+				"commentAdded": "Komentar je uspešno objavljen",
+				"noComments": "Budite prvi koje će komentarisati",
+				"noCommentsInSorting": "Nema komentara",
+				"flagQuestion": "Želite li da prijavite ovaj komentar?",
+				"toxicityLimit": "Ne možete objaviti komentar sa verovatnoćom štetnosti većom od %d",
+				"emailExists": "Ova e-pošta je već u upotrebi",
+				"signInQuestion": "Već imate račun?",
+				"signUpQuestion": "Nemate račun?",
+				"missingPassword": "Nemate lozinku?",
+				"passwordReset": "Kliknite ovde da biste resetovali lozinku",
+				"incorrectDetails": "Netačna e-pošta ili lozinka.",
+				"blockedIp": "Molim Vas kontaktirajte vlasnika sajta pošto su oni zabranili vaš ip.",
+				"blockedEmail": "Molim Vas kontaktirajte vlasnika sajta pošto su oni zabranili vašu e-poštu."
+			},
+			"timeAgo": {
+				"seconds": "sada",
+				"minutes": "%dm",
+				"hours": "%dh",
+				"days": "%dd",
+				"months": "%dmo",
+				"years": "%dY",
+				"locale": "en-US"
+			},
+			"shareIcons": {
+				"facebook": "Podeli koristeći Facebook",
+				"linkedin": "Podeli koristeći Linkedin",
+				"twitter": "Podeli koristeći Twitter"
+			},
+			"login": {
+				"facebook": "Prijavi se koristeći Facebook",
+				"google": "Prijavi se koristeći Google",
+				"twitter": "Prijavi se koristeći Twitter",
+				"disqus": "Prijavi se koristeći Disqus"
+			},
+			"commentText": {
+				"when1": "Komentar",
+				"whenX": "Komentari"
+			},
+			"sorting": {
+				"editorsPick": "Urednikov izbor",
+				"latest": "Najnovije",
+				"more": "Više",
+				"mostLiked": "Najbolje",
+				"mostReplied": "Najviše Odgovoreno",
+				"oldest": "Najstarije",
+				"sortBy": "Poređaj po:"
+			},
+			"buttons": {
+				"addComment": "Dodaj Komentar",
+				"like": "Sviđa mi se",
+				"liked": "Već mi se sviđa",
+				"loadMore": "Učitaj više komentara",
+				"post": "Objavi",
+				"showMoreArticles": "Prikaži više članaka"
+			},
+			"footer": {
+				"addVuukle": "Dodaj Vuukle",
+				"privacy": "Privatnost"
+			},
+			"recommendedStories": "Gradske priče"
+		}
+	}
 }
